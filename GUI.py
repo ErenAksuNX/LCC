@@ -26,3 +26,9 @@ class GUI:
 
     def select_Quma(self):
         self.QumaPath = filedialog.askopenfilename()
+
+    def select_Rechnung(self):
+        self.RechnungPath = filedialog.askopenfilename()
+
+    def select_save(self):
+        self.Speicherort = filedialog.askdirectory()
