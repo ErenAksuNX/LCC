@@ -11,7 +11,7 @@ def geometries(master: tkinter.Tk):
 
 
 # Diese Funktion placed die Buttons
-# ! Diese Funktion funktioniert nur richtig wenn es 4 Buttons gibt
+# ! Diese Funktion funktioniert nur richtig, wenn es 4 Buttons gibt
 def place_Buttons(Buttons):
     for i, button in enumerate(Buttons):
         button.place(anchor="center", rely=(i + 1) / 5, relx=.5)
