@@ -3,12 +3,11 @@ import tkinter as tk
 import tkinter.ttk as ttk
 
 
-
-
 class GUI:
     def __init__(self, master: tk.Tk):
         self.master: tk.Tk = master
 
+        #  Hier wird der GUI das Layout gegeben
         Geometries.geometries(self.master)
 
         self.buttons()

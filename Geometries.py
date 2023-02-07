@@ -1,6 +1,7 @@
 import tkinter
 
 
+#  Diese Funktion gibt einer GUI den Standard Layout
 def geometries(master: tkinter.Tk):
     master.title("National-Express LCC Zuweisung")
     master.geometry("500x500")
